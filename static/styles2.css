@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.knopki {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border-radius: 23px;
+    margin: 5px 0;
+    padding: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+.card:hover {
+    background-color: #3a3a3c;
+}
+.icon {
+    width: 9vw;
+    height: 9vw;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #ffffff;
+}
+.wrapper-too {
+    margin-left: auto;
+    margin-right: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    line-height: 6vw;
+    border-radius: 23px;
+    border: 2px solid #ffffff;
+}
+.knopki_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    line-height: 12vw;
+    border-radius: 23px;
+    border: 2px solid #ffffff;
+}
+.knopkii_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    line-height: 12vw;
+    border-radius: 23px;
+}
+
+.name {
+    font-size: clamp(12px, 6vw, 24px);
+    font-weight: bold;
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: auto;
+}
+.name-too {
+    font-size: clamp(12px, 5vw, 24px);
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.name-knopki {
+    font-size: clamp(6px, 6vw, 100px);
+    font-weight: bold;
+}
+
+#blum-icon {
+    background-image: url('img/blum.webp');
+}
+
+#iceberg-icon {
+    background-image: url('img/iceberg.webp');
+}
+
+#cubes-icon {
+    background-image: url('img/cubes.webp');
+}
+
+#arbuz-icon {
+    background-image: url('img/arbuz.webp');
+}
+
+#hamster-icon {
+    background-image: url('img/hamster.webp');
+}
+
+#orbitonx-icon {
+    background-image: url('img/ox.webp');
+}
+
+#fuel-icon {
+    background-image: url('img/fuel.webp');
+}
+
+#catizen-icon {
+    background-image: url('img/cati.webp');
+}
+
+#beeton-icon {
+    background-image: url('img/BeeTon.webp');
+}
+
+#pixelverse-icon {
+    background-image: url('img/Pixelverse.webp');
+}
+
+#drophunter-icon {
+    background-image: url('img/DropHunter.webp');
+}
+
+#memefi-icon {
+    background-image: url('img/MemeFi.webp');
+}
+
+#water-icon {
+    background-image: url('img/Water.webp');
+}
+
+#dotcoin-icon {
+    background-image: url('img/Dotcoin.webp');
+}
+
+#vertus-icon {
+    background-image: url('img/Vertus.webp');
+}
+
+#bullrun-icon {
+    background-image: url('img/BullRun.webp');
+}
+
+#topcoin-icon {
+    background-image: url('img/Topcoin.webp');
+}
+
+#tonstation-icon {
+    background-image: url('img/TONStation.webp');
+}
+
+#diamore-icon {
+    background-image: url('img/Diamore.webp');
+}
+
+#timefarm-icon {
+    background-image: url('img/TimeFarm.webp');
+}
+
+
+#lider-knopki {
+}
+footer {
+    background: linear-gradient(to top, rgba(0, 0, 1, 1), transparent);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* ������������, ��� ����� ����� ���� ������ ��������� */
+}

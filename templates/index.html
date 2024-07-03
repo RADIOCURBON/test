@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curbo Bot lider</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles2.css') }}">
+    <script src="{{ url_for('static', filename='sort.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="knopki" id="lider-knopki">
+            <div class="knopkii_wrapper">
+                <div class="name-knopki"><pre> Leaders </pre></div>
+            </div>
+
+            <div class="knopki_wrapper" onclick="location.href='index.html'">
+                <div class="name-knopki"><pre> Miners </pre></div>
+            </div>
+
+            <div class="knopki_wrapper" onclick="location.href=''">
+                <div class="name-knopki"><pre> ------ </pre></div>
+            </div>
+        </div>
+
+        <div class="container" id="cards-container">
+            {% for url, name in channel_names %}
+            <div class="card">
+                <div class="icon" id="{{ name.lower() }}-icon"></div>
+                <div class="name">{{ name }}</div>
+                <div class="wrapper-too">
+                    <div class="name-too"><pre> {{ data[url] }} </pre></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
